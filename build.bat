@@ -1,0 +1,1 @@
+pyinstaller --noconfirm --onefile --windowed --icon "\assets\icon.ico" --name "Keycap_desktop"  "\app.py"
