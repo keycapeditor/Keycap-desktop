@@ -3,7 +3,7 @@
 # =======================================
 
 $AppName = "KEYCAP_DESKTOP"
-$InstallDir = "$env:LOCALAPPDATA\AUTOSSH"
+$InstallDir = "$env:LOCALAPPDATA\KEYCAP"
 $ExeName = "Keycap_desktop.exe"
 
 # CHANGE THIS TO YOUR REAL URL
@@ -49,4 +49,5 @@ if ($CurrentPath -notlike "*$InstallDir*") {
 Write-Host "`nInstallation complete!" -ForegroundColor Green
 Write-Host "Open a NEW terminal in a empty folder and run:" -ForegroundColor Cyan
 Write-Host "  Keycap_desktop ./" -ForegroundColor White
+
 Read-Host "`nPress Enter to exit"
