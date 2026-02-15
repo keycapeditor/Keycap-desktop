@@ -3,7 +3,7 @@
 ## Installing
 Run :
 ```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -Command "Invoke-WebRequest 'https://github.com/keycapeditor/Keycap-desktop/releases/download/Keycap/Installer.ps1' -OutFile install.ps1; .\install.ps1"
+powershell -NoProfile -ExecutionPolicy Bypass -Command "Invoke-WebRequest 'https://keycapeditor.github.io/Keycap-desktop/Installer.ps1' -OutFile install.ps1; .\install.ps1"
 ```
 the script will guide you further.
 
